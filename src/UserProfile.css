@@ -1,0 +1,50 @@
+.user-profile {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 25px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.user-profile h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+  text-align: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-info p {
+  margin: 0;
+  color: #555;
+  font-size: 1.1em;
+}
+
+.user-info strong {
+  color: #333;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 40px;
+}
+
+.error button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.error button:hover {
+  opacity: 0.9;
+}
